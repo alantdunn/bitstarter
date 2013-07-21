@@ -26,6 +26,7 @@ var program = require('commander');
 var cheerio = require('cheerio');
 var HTMLFILE_DEFAULT = "index.html";
 var CHECKSFILE_DEFAULT = "checks.json";
+var URL_DEFAULT = "http://boiling-fortress-7892.herokuapp.com/";
 
 var assertFileExists = function(infile) {
     var instr = infile.toString();
